@@ -1,0 +1,46 @@
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# IDE & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.next/
+.out/
+
+# Lock files (optional - keep if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: coverage/testing output
+coverage/
+
+# dotenv backups
+.env.*
