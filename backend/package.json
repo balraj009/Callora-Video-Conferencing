@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon/app.js",
-    "start": "node app.js",
+    "start": "node server.js",
     "prod": "pm2 app.js"
   },
   "keywords": [],
