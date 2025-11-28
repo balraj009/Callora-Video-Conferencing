@@ -2,7 +2,7 @@ import http from "http";
 import app from "./app.js";
 import connectToSocketIO from "./controller/socket.controller.js";
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT;
 
 const server = http.createServer(app);
 
